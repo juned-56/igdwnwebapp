@@ -8,6 +8,7 @@ const fs = require("fs");
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(express.static(path.join(__dirname, '../public')));
 
 // API endpoint to download the Instagram video
 app.post("/download", (req, res) => {
