@@ -1,0 +1,94 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <title>Instagram Video Downloader</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"> <img src="logo.png" alt="Company Logo"> </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Instagram Video Downloader</h2>
+        <input type="text" id="instaUrl" placeholder="Enter Instagram Video URL">
+        <button onclick="getVideoPreview()">Preview Video</button>
+        <button id="downloadBtn" style="display: none;" onclick="downloadVideo()">Download Video</button>
+
+        <div id="videoPreview" style="display: none;">
+            <h3>Video Preview</h3>
+            <video id="previewPlayer" controls></video>
+        </div>
+
+        <p id="statusMessage"></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Video Downloader Developed By Juned Khan(ZPlus Technologies). <a href="terms.html">Terms & Conditions</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <title>Instagram Video Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🔹 Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"> <img src="logo.png" alt="Company Logo"> </a>
+        </div>
+        <button class="menu-btn" onclick="toggleMenu()">☰</button> <!-- Mobile Menu Button -->
+        <ul class="nav-links" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+        </ul>
+    </nav>
+
+    <!-- 🔹 Main Content -->
+    <div class="container">
+        <h2>Instagram Video Downloader</h2>
+        <input type="text" id="instaUrl" placeholder="Enter Instagram Video URL">
+        <button onclick="getVideoPreview()">Preview Video</button>
+        <button id="downloadBtn" style="display: none;" onclick="downloadVideo()">Download Video</button>
+
+        <!-- 🔹 Video Preview Section -->
+        <div id="videoPreview" style="display: none;">
+            <h3>Video Preview</h3>
+            <video id="previewPlayer" controls></video>
+        </div>
+
+        <p id="statusMessage"></p>
+    </div>
+
+    <!-- 🔹 Footer -->
+    <footer>
+        <p>&copy; 2024 Video Downloader Developed By <strong>ZPlus Technologies</strong>. <a href="terms.html">Terms & Conditions</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
